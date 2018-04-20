@@ -408,6 +408,18 @@ address {
       margin-top: 3em;
       padding: 0.75em 0.75em 1.5em; } }
 
+.notification {
+  display: none;
+  background: #0A0A0A;
+  padding: 0.75em;
+  color: #FFF;
+  text-align: center;
+  transition: 300ms ease-in-out;
+  border-radius: 2em; }
+
+.notification-error {
+  background: red; }
+
 input,
 select,
 textarea {

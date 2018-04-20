@@ -175,6 +175,20 @@ address {
   }
 }
 
+.notification {
+  display: none;
+  background: $black;
+  padding: $spacing-unit/2;
+  color: $white;
+  text-align: center;
+  transition: 300ms ease-in-out;
+  border-radius: 2em;
+}
+
+.notification-error {
+  background: red;
+}
+
 input,
 select,
 textarea {
