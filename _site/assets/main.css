@@ -441,6 +441,9 @@ label {
   display: block;
   margin-bottom: 0.375em; }
 
+.g-recaptcha {
+  margin-bottom: 0.75em; }
+
 /**
  * Syntax highlighting styles
  */
